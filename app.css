@@ -4,7 +4,7 @@ marquee {
 
 div {
    width: 50%;
-   border: 3px cyan;
+   border: 3px dotted cyan;
    padding: 25px;
    margin: auto;
    text-align: center;
