@@ -5,13 +5,15 @@ marquee {
 div {
    width: 50%;
    border-bottom: 3px solid hsla(200,60%,70%,0.3);
-   padding: 25px;
    margin: auto;
-   text-align: center;
 }
 
 p {
    color: white;
+}
+
+a.link{
+   text-align: right;
 }
 
 img {
