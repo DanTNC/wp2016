@@ -22,6 +22,6 @@ img {
 
 body {
    background-image: url("TNC.png");
-   background-position: center top;
+   background-size: contain;
    background-repeat: no-repeat;
 }
