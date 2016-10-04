@@ -42,11 +42,11 @@ span {
    font-size: 250%;
 }
 
-.link:hover{
+a:hover{
    color: pink;
 }
 
-.link:hover span{
+a:hover span{
    visibility: visible;
 }
 
