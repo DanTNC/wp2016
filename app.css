@@ -6,7 +6,7 @@ marquee {
 #name {
    border-bottom: 3px solid hsla(200,60%,70%,0.3);
    width: 50%;
-   height: 70px;
+   height: 100%;
    margin: auto;
 }
 
