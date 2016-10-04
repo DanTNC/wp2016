@@ -38,8 +38,11 @@ span {
    display: inline-block;
    color: white;
    font-family: fantasy;
-   text-align: right;
    font-size: 250%;
+}
+
+a {
+      text-align: right;
 }
 
 a:hover{
