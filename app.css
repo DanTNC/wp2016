@@ -12,8 +12,16 @@ p {
    color: white;
 }
 
+p:first-child font{
+   font-size: 300%;
+}
+
 .link {
    text-align: right;
+}
+
+.link font{
+   font-size: 150%;
 }
 
 img {
