@@ -6,7 +6,7 @@ marquee {
 #name {
    border-bottom: 3px solid hsla(200,60%,70%,0.3);
    width: 50%;
-   height: 100%;
+   height: auto;
    margin: auto;
 }
 
@@ -31,14 +31,14 @@ span {
    padding: 5px 0;
    position: absolute;
    z-index: -1;
-   top:100%;
+   top: 100%;
    margin-left: -60px;
 }
 
 .link {
    font-size: 250%;
    width: 50%;
-   height: 70px;
+   height: auto;
    margin: auto;
    text-align: right;
 }
