@@ -13,7 +13,7 @@ p {
    display: inline-block;
 }
 
-p.link {
+.link {
    text-align: right;
 }
 
