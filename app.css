@@ -10,10 +10,13 @@ marquee {
    margin: auto;
 }
 
+#name p {
+   font-size: 300%;
+}
+
 p {
    color: white;
    font-family: fantasy;
-   font-size: 300%;
 }
 
 span {
@@ -32,8 +35,6 @@ span {
 }
 
 .link {
-   color: white;
-   font-family: fantasy;
    font-size: 250%;
    width: 50%;
    height: 70px;
@@ -41,11 +42,11 @@ span {
    text-align: right;
 }
 
-a:hover{
+.link p:hover{
    color: pink;
 }
 
-a:hover span{
+.link p:hover span{
    visibility: visible;
 }
 
