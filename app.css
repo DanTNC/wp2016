@@ -20,6 +20,7 @@ p:first-child{
 }
 
 span {
+   font-size: 100%;
    visibility: hidden;
    width: 120px;
    background-color: black;
@@ -31,6 +32,7 @@ span {
    bottom: 100%;
    left: 50%; 
    margin-left: -60px;
+   position: absolute;
 }
 
 .link {
