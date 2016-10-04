@@ -23,7 +23,7 @@ span {
    font-family: monospace;
    font-size: 30px;
    visibility: hidden;
-   background-color: black;
+   background-color: gray;
    color: #fff;
    text-align: center;
    border-radius: 8px;
