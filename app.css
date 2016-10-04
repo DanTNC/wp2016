@@ -25,7 +25,6 @@ p:first-child{
 }
 
 .link a:hover{
-   font-size: 300%;
    color: pink;
 }
 
