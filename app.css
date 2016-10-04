@@ -16,9 +16,6 @@ div {
 p {
    color: white;
    font-family: fantasy;
-}
-
-#name p{
    font-size: 300%;
 }
 
@@ -32,21 +29,25 @@ span {
    text-align: center;
    border-radius: 6px;
    padding: 5px 0;
-   position: relative;
+   position: absolute;
    z-index: 1;
    margin-left: -60px;
 }
 
 .link {
+   position: relative;
+   display: inline-block;
+   color: white;
+   font-family: fantasy;
    text-align: right;
    font-size: 250%;
 }
 
-.link a:hover{
+.link:hover{
    color: pink;
 }
 
-.link a:hover span{
+.link:hover span{
    visibility: visible;
 }
 
