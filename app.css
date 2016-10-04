@@ -42,11 +42,11 @@ span {
    text-align: right;
 }
 
-.link p:hover{
+.link p a:hover{
    color: pink;
 }
 
-.link p:hover span{
+.link p a:hover span{
    visibility: visible;
 }
 
