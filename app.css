@@ -31,7 +31,8 @@ span {
    padding: 5px 0;
    position: relative;
    z-index: 1;
-   left: 10%;
+   left: 100%;
+   top: 10%;
    margin-left: -60px;
 }
 
