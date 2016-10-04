@@ -34,8 +34,6 @@ span {
    padding: 5px 0;
    position: relative;
    z-index: 1;
-   bottom: 150%;
-   left: 50%;
    margin-left: -60px;
 }
 
