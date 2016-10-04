@@ -20,6 +20,7 @@ p:first-child{
 }
 
 span {
+   font-family: monospace;
    font-size: 30px;
    visibility: hidden;
    width: 120px;
