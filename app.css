@@ -3,14 +3,11 @@ marquee {
    font-family: cursive;
 }
 
-div {
+#name {
+   border-bottom: 3px solid hsla(200,60%,70%,0.3);
    width: 50%;
    height: 70px;
    margin: auto;
-}
-
-#name {
-   border-bottom: 3px solid hsla(200,60%,70%,0.3);
 }
 
 p {
@@ -39,10 +36,10 @@ span {
    color: white;
    font-family: fantasy;
    font-size: 250%;
-}
-
-a {
-      text-align: right;
+   width: 50%;
+   height: 70px;
+   margin: auto;
+   text-align: right;
 }
 
 a:hover{
