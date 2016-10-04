@@ -32,14 +32,12 @@ span {
    bottom: 150%;
    left: 50%;
    margin-left: -60px;
-   position: relative;
 }
 
 .link {
    display: inline-block;
    text-align: right;
    font-size: 250%;
-   position: relative;
 }
 
 .link a:hover{
