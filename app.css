@@ -32,7 +32,7 @@ span {
    bottom: 150%;
    left: 50%;
    margin-left: -60px;
-   position: absolute;
+   position: relative;
 }
 
 .link {
