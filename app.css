@@ -43,6 +43,24 @@ span {
    display:　inline-block;
 }
 
+.link p:link{
+   color: white;
+   background-color: transparent;
+   text-decoration: none;
+}
+
+.link p:visited{
+   color: white;
+   background-color: transparent;
+   text-decoration: none;
+}
+
+.link p:active{
+   color: white;
+   background-color: transparent;
+   text-decoration: none;
+}
+
 .link p a:hover{
    color: pink;
 }
