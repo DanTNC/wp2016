@@ -55,14 +55,14 @@ span {
    text-decoration: none;
 }
 
+.link p a:hover{
+   color: pink;
+}
+
 .link p:active{
    color: white;
    background-color: transparent;
    text-decoration: none;
-}
-
-.link p a:hover{
-   color: pink;
 }
 
 .link p a:hover span{
