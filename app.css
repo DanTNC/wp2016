@@ -14,8 +14,29 @@ marquee {
    font-size: 300%;
 }
 
-p {
+#name p:link {
    color: white;
+   background-color: transparent;
+   text-decoration: none;
+}
+#name p:visited {
+   color: white;
+   background-color: transparent;
+   text-decoration: none;
+}
+#name p:hover {
+   color: cyan;
+   background-color: transparent;
+   text-decoration: none;
+}
+#name p:active {
+   color: white;
+   background-color: transparent;
+   text-decoration: none;
+}
+
+
+p {
    font-family: fantasy;
 }
 
