@@ -30,7 +30,7 @@ span {
    padding: 5px;
    position: relative;
    z-index: 1;
-   bottom: 60px;
+   left: 100%;
    margin-left: -60px;
 }
 
