@@ -10,27 +10,27 @@ marquee {
    margin: auto;
 }
 
-#name p {
+#name p a{
    color: white;
    font-size: 300%;
 }
 
-#name p:link {
+#name p a:link {
    color: white;
    background-color: transparent;
    text-decoration: none;
 }
-#name p:visited {
+#name p a:visited {
    color: white;
    background-color: transparent;
    text-decoration: none;
 }
-#name p:hover {
+#name p a:hover {
    color: cyan;
    background-color: transparent;
    text-decoration: none;
 }
-#name p:active {
+#name p a:active {
    color: white;
    background-color: transparent;
    text-decoration: none;
