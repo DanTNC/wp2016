@@ -43,13 +43,13 @@ span {
    display:　inline-block;
 }
 
-.link p:link{
+.link p a:link{
    color: white;
    background-color: transparent;
    text-decoration: none;
 }
 
-.link p:visited{
+.link p a:visited{
    color: white;
    background-color: transparent;
    text-decoration: none;
@@ -59,7 +59,7 @@ span {
    color: pink;
 }
 
-.link p:active{
+.link p a:active{
    color: white;
    background-color: transparent;
    text-decoration: none;
