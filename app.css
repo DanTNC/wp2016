@@ -62,7 +62,7 @@ button span {
 
 .a:hover span:after {
   opacity: 1;
-  right: -5px;
+  right: -10px;
 }
 
 .c span:after {
@@ -81,7 +81,7 @@ button span {
 
 .c:hover span:after {
   opacity: 1;
-  right: -5px;
+  right: -20px;
 }
 
 button:hover {
