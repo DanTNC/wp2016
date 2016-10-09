@@ -6,7 +6,7 @@ $(document).ready(function(){
   $(".a").click(function(){
     $("img").fadeOut("slow",function(){
      $("pre").fadeIn("slow");
-     $("pre").animate({left: '50%'});
+     $("pre").animate({left: '1000px'});
     });
   });
 });
