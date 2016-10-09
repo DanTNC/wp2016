@@ -48,42 +48,12 @@ button:hover {
    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-span {
-   font-family: monospace;
-   font-size: 30px;
-   visibility: hidden;
-   background-color: hsla(120, 10%, 50%, 0.6);
-   color: #fff;
-   text-align: center;
-   border-radius: 8px;
-   padding: 5px;
-   position: relative;
-   z-index: 1;
-   bottom: 60px;
-   margin-left: -60px;
-}
-
 .link {
    font-size: 250%;
    width: 50%;
    height: auto;
    margin: auto;
    text-align: right;
-}
-
-.link p a:hover span{
-   visibility: visible;
-}
-
-.link p a:hover span::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: hsla(120, 10%, 50%, 0.6) transparent transparent transparent;
 }
 
 img {
