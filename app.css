@@ -46,7 +46,7 @@ button span {
   transition: 0.5s;
 }
 
-button:active {
+button:focus {
    border:none;
 }
 
