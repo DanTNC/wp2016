@@ -103,6 +103,12 @@ button:hover {
    text-align: right;
 }
 
+pre {
+   color: white;
+   font-family: fantasy;
+   font-size: 150%;
+}
+
 img {
    display: block;
    margin: auto;
