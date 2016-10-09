@@ -48,6 +48,7 @@ button span {
 
 .a span:after {
   content: 'bout';
+  color: black;
   position: absolute;
   opacity: 0;
   top: 0;
@@ -61,11 +62,12 @@ button span {
 
 .a:hover span:after {
   opacity: 1;
-  right: 0;
+  right: -5px;
 }
 
-.b span:after {
+.c span:after {
   content: 'ontact';
+  color: black;
   position: absolute;
   opacity: 0;
   top: 0;
@@ -73,13 +75,13 @@ button span {
   transition: 0.5s;
 }
 
-.b:hover span {
+.c:hover span {
   padding-right: 55px;
 }
 
-.b:hover span:after {
+.c:hover span:after {
   opacity: 1;
-  right: 0;
+  right: -5px;
 }
 
 button:hover {
