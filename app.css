@@ -52,17 +52,17 @@ button span {
   position: absolute;
   opacity: 0;
   top: 0;
-  right: -50px;
+  right: -400%;
   transition: 0.5s;
 }
 
 .a:hover span {
-  padding-right: 55px;
+  padding-right: 80%;
 }
 
 .a:hover span:after {
   opacity: 1;
-  right: -10px;
+  right: 0%;
 }
 
 .c span:after {
@@ -71,17 +71,17 @@ button span {
   position: absolute;
   opacity: 0;
   top: 0;
-  right: -50px;
+  right: -400%;
   transition: 0.5s;
 }
 
 .c:hover span {
-  padding-right: 55px;
+  padding-right: 85%;
 }
 
 .c:hover span:after {
   opacity: 1;
-  right: -20px;
+  right: 2%;
 }
 
 button:hover {
