@@ -71,11 +71,11 @@ span {
    text-align: right;
 }
 
-button:hover span{
+.link p a:hover span{
    visibility: visible;
 }
 
-button:hover span::after {
+.link p a:hover span::after {
     content: "";
     position: absolute;
     top: 100%;
