@@ -5,6 +5,6 @@ btc.addEventListener("click", displayContact);*/
 $(document).ready(function(){
   $(".a").click(function(){
      $("img").fadeOut("slow");
-     $("img").fadeIn("slow");
+     $("pre").fadeIn("slow");
   });
 });
