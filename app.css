@@ -41,6 +41,49 @@ button {
    font-family: fantasy;
 }
 
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.a span:after {
+  content: 'bout';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -50px;
+  transition: 0.5s;
+}
+
+.a:hover span {
+  padding-right: 55px;
+}
+
+.a:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.b span:after {
+  content: 'ontact';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -50px;
+  transition: 0.5s;
+}
+
+.b:hover span {
+  padding-right: 55px;
+}
+
+.b:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 button:hover {
    background-color: white;
    border: none;
