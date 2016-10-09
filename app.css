@@ -46,6 +46,10 @@ button span {
   transition: 0.5s;
 }
 
+button:active {
+   border:none;
+}
+
 .a span:after {
   content: 'bout';
   color: black;
