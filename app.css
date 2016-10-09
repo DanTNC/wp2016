@@ -104,9 +104,11 @@ button:hover {
 }
 
 pre {
+   visibility: hide;
    color: white;
    font-family: fantasy;
    font-size: 150%;
+   float: right;
 }
 
 img {
