@@ -35,8 +35,6 @@ button {
    display: inline-block;
    float: left;
    font-size: 100%;
-   -webkit-transition-duration: 0.4s; /* Safari */
-   transition-duration: 0.4s;
    cursor: pointer;
    font-family: fantasy;
 }
