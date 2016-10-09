@@ -1,8 +1,9 @@
-function change(){
-  if(this.innerHTML==A){
-    this.innerHTML=About;
-  }
-  if(this.innerHTML==C){
-    this.innerHTML=Contact;
-  }
-}
+/*var bta=document.getElementById("a");
+var btc=document.getElementById("c");
+bta.addEventListener("click", displayAbout);
+btc.addEventListener("click", displayContact);*/
+$(document).ready(function(){
+  $(.a).click(function(){
+     $(img).fadeOut(slow);
+  })
+})
