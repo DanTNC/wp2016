@@ -1,9 +1,8 @@
 function change(){
-  var txt=this.innerHTML;
-  if(txt=="A"){
-    this.innerHTML="About";
+  if(this.innerHTML==A){
+    this.innerHTML=About;
   }
-  if(txt=="C"){
-    this.innerHTML="Contact";
+  if(this.innerHTML==C){
+    this.innerHTML=Contact;
   }
 }
