@@ -1,9 +1,9 @@
 function change(){
-  var txt=this.text;
+  var txt=this.innerHTML;
   if(txt=="A"){
-    this.text="About";
+    this.innerHTML="About";
   }
   if(txt=="C"){
-    this.text="Contact";
+    this.innerHTML="Contact";
   }
 }
