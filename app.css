@@ -104,7 +104,7 @@ button:hover {
 }
 
 pre {
-   visibility: hidden;
+   display: none;
    color: white;
    font-family: fantasy;
    font-size: 150%;
