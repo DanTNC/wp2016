@@ -110,6 +110,7 @@ img {
 
 body {
    background-image: url("TNC.png");
+   background-color: black;
    background-size: cover;
    background-repeat: no-repeat;
 }
