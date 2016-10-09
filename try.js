@@ -4,9 +4,8 @@ bta.addEventListener("click", displayAbout);
 btc.addEventListener("click", displayContact);*/
 $(document).ready(function(){
   $(".a").click(function(){
-    $("img").fadeOut("slow",function(){
+    $("img").animate({top: '+=40%'},function(){
      $("pre").fadeIn("slow");
-     $("pre").animate({left: '1000px'});
     });
   });
 });
