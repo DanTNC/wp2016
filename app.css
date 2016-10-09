@@ -62,29 +62,6 @@ span {
    height: auto;
    margin: auto;
    text-align: right;
-   display:　inline-block;
-}
-
-.link p a:link{
-   color: white;
-   background-color: transparent;
-   text-decoration: none;
-}
-
-.link p a:visited{
-   color: white;
-   background-color: transparent;
-   text-decoration: none;
-}
-
-.link p a:hover{
-   color: pink;
-}
-
-.link p a:active{
-   color: white;
-   background-color: transparent;
-   text-decoration: none;
 }
 
 .link p a:hover span{
