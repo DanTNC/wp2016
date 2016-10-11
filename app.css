@@ -46,7 +46,7 @@ p {
   transition: 0.5s;
 }
 
-.link p a button:focus {
+button:focus {
    outline:none;
 }
 
