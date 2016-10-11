@@ -13,7 +13,7 @@ $(document).ready(function(){
     }else{
       $("#about").slideToggle("slow");
     }
-    state = (state!=0?0:1);
+    state = (state==1?0:1);
     //alert(state);
   });
 });
@@ -26,7 +26,7 @@ $(document).ready(function(){
     }else{
       $("#contact").slideToggle("slow");
     }
-    state = (state!=0?0:2);
+    state = (state==2?0:2);
     //alert(state);
   });
 });
