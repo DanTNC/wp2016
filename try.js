@@ -30,13 +30,14 @@ $(document).ready(function(){
     //alert(state);
   });
 });
-$(document).ready(function(){
-  $("body").not("button").click(function(){
+$(document).mouseup(function(e){
+  var _con = $(".button");
+  if(!_con.is(e.target) && _con.has(e.target).length === 0){
     if(state==1){
       $("#about").slideToggle("slow");
     }else if(state==2){
       $("#contact").slideToggle("slow");
     }
     state=0;
-  });
+  }
 });
