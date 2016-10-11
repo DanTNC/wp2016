@@ -30,3 +30,12 @@ $(document).ready(function(){
     //alert(state);
   });
 });
+$(document).ready(function(){
+  $("body").click(function(){
+    if(state==1){
+      $("#about").slideToggle("slow");
+    }else if(state==2){
+      $("#contact").slideToggle("slow");
+    }
+  });
+});
