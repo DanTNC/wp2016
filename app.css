@@ -125,6 +125,11 @@ pre {
    border: none;
    display: inline-block;
    cursor: pointer;
+   border-radius:　8px;
+}
+
+#about button:hover {
+   border-radius:　50%;
 }
 
 #image img {
