@@ -37,5 +37,6 @@ $(document).ready(function(){
     }else if(state==2){
       $("#contact").slideToggle("slow");
     }
+    state=0;
   });
 });
