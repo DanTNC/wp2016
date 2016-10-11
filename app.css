@@ -25,7 +25,7 @@ p {
    font-family: fantasy;
 }
 
-button {
+.link p a button {
    background-color: hsla(0, 100%, 50%, 0.0);
    border: none;
    color: white;
@@ -39,14 +39,14 @@ button {
    font-family: fantasy;
 }
 
-button span {
+.link p a button span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-button:focus {
+.link p a button:focus {
    outline:none;
 }
 
