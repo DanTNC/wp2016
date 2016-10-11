@@ -125,6 +125,7 @@ pre {
    border: none;
    display: inline-block;
    cursor: pointer;
+   transition: 0.5s;
 }
 
 #about button:hover {
