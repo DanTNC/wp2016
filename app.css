@@ -103,8 +103,12 @@ button:hover {
    text-align: right;
 }
 
+#about {
+    display: none;
+    background-color: hsla(240, 0%, 0%, 0.6);
+}
+
 pre {
-   display: none;
    color: white;
    font-family: fantasy;
    font-size: 150%;
