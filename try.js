@@ -31,7 +31,7 @@ $(document).ready(function(){
   });
 });
 $(document).ready(function(){
-  $("body").click(function(){
+  $("body").not("button").click(function(){
     if(state==1){
       $("#about").slideToggle("slow");
     }else if(state==2){
