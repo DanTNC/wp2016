@@ -103,7 +103,7 @@ button:hover {
    text-align: right;
 }
 
-#about {
+#about, #contact {
     display: none;
     background-color: hsla(240, 0%, 0%, 0.6);
     padding: 5px;
