@@ -88,7 +88,7 @@ p {
   right: 3%;
 }
 
-button:hover {
+.link p a button:hover {
    background-color: white;
    border: none;
    color: black;
