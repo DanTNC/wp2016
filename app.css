@@ -118,6 +118,7 @@ pre {
 #about button img {
    width: 200px;
    height: 100px;
+   border-radius:　8px;
 }
 
 #about button {
@@ -125,10 +126,9 @@ pre {
    border: none;
    display: inline-block;
    cursor: pointer;
-   border-radius:　8px;
 }
 
-#about button:hover {
+#about button:hover img{
    border-radius:　50%;
 }
 
