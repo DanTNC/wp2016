@@ -31,7 +31,7 @@ $(document).ready(function(){
   });
 });
 $(document).mouseup(function(e){
-  var _con = $(".button");
+  var _con = $(".link");
   if(!_con.is(e.target) && _con.has(e.target).length === 0){
     if(state==1){
       $("#about").slideToggle("slow");
