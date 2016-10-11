@@ -118,7 +118,6 @@ pre {
 #about button img {
    width: 200px;
    height: 100px;
-   border-radius:　8px;
 }
 
 #about button {
@@ -129,7 +128,7 @@ pre {
 }
 
 #about button:hover img{
-   border-radius:　50%;
+   background-color: hsla(0, 100%, 50%, 0.3);
 }
 
 #image img {
