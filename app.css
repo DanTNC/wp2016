@@ -120,7 +120,14 @@ pre {
    height: 100px;
 }
 
-img:last-child {
+#about button {
+   background-color: hsla(0, 100%, 50%, 0.0);
+   border: none;
+   display: inline-block;
+   cursor: pointer;
+}
+
+#image img {
    display: block;
    margin: auto;
    width: 20%;
