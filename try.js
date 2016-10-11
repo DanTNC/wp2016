@@ -5,7 +5,7 @@ btc.addEventListener("click", displayContact);*/
 $(document).ready(function(){
   $(".a").click(function(){
     //$("#image").fadeOut("slow",function(){
-     $("pre").slideToggle("slow");
+     $("#about").slideToggle("slow");
     });
   });
 });
