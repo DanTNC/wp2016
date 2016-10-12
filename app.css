@@ -43,6 +43,10 @@ li a, footer {
    font-size: 200%;
 }
 
+li {
+   padding: 3%;
+}
+
 li:hover {
    background-color: hsla(0, 0%, 50%, 0.2);
 }
