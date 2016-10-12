@@ -31,7 +31,7 @@ ul {
    padding: 0;
 }
 
-li a, footer {
+li a, .footer {
    color: white;
    font-family: fantasy;
    font-size: 200%;
@@ -160,7 +160,7 @@ pre {
    width: 20%;
 }
 
-footer {
+.footer {
    position: absolute;
    left: 0;
    right: 0;
