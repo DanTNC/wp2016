@@ -173,6 +173,7 @@ pre {
 }
 
 body {
+   position: relative;
    background-image: url("TNC.png");
    background-color: black;
    background-size: cover;
