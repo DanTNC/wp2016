@@ -25,6 +25,11 @@ p {
    font-family: fantasy;
 }
 
+li a, button {
+   color: white;
+   font-family: fantasy;
+}
+
 .link p a button {
    background-color: hsla(0, 100%, 50%, 0.0);
    border: none;
