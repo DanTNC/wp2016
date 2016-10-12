@@ -25,6 +25,11 @@ p {
    font-family: fantasy;
 }
 
+ul{
+   list-style-type: none;
+   padding: 0;
+}
+
 li a, li button {
    color: white;
    font-family: fantasy;
