@@ -43,8 +43,8 @@ li a, footer {
    font-size: 200%;
 }
 
-li a:hover {
-   background-color: hsla(0, 100%, 50%, 0.0);
+li:hover {
+   background-color: hsla(0, 0%, 50%, 0.2);
 }
 
 .link p a button {
