@@ -157,6 +157,13 @@ pre {
    width: 20%;
 }
 
+footer {
+    padding: 1em;
+    color: white;
+    clear: left;
+    text-align: center;
+}
+
 body {
    background-image: url("TNC.png");
    background-color: black;
