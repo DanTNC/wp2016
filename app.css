@@ -37,10 +37,14 @@ ul {
    padding: 0;
 }
 
-li a, li button, footer{
+li a, footer {
    color: white;
    font-family: fantasy;
    font-size: 200%;
+}
+
+li a:hover {
+   background-color: hsla(0, 100%, 50%, 0.0);
 }
 
 .link p a button {
