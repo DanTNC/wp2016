@@ -38,7 +38,7 @@ nav {
 }
 
 
-li a, li button {
+li a, li button, footer{
    color: white;
    font-family: fantasy;
 }
@@ -158,10 +158,10 @@ pre {
 }
 
 footer {
-    padding: 1em;
-    color: white;
-    clear: left;
-    text-align: center;
+   padding: 1em;
+   clear: left;
+   text-align: center;
+   font-size: 300%;
 }
 
 body {
