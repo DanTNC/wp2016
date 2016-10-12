@@ -45,6 +45,7 @@ li a, footer {
 
 li {
    padding: 3%;
+   cursor: pointer;
 }
 
 li:hover {
