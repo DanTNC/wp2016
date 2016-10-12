@@ -25,11 +25,6 @@ p {
    font-family: fantasy;
 }
 
-ul{
-   list-style-type: none;
-   padding: 0;
-}
-
 nav {
     float: left;
     max-width: 160px;
@@ -37,10 +32,15 @@ nav {
     padding: 1em;
 }
 
+ul {
+   list-style-type: none;
+   padding: 0;
+}
 
 li a, li button, footer{
    color: white;
    font-family: fantasy;
+   font-size: 200%;
 }
 
 .link p a button {
