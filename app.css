@@ -1,5 +1,5 @@
 marquee {
-   color: cyan;
+   color: #16b6f1;
    font-family: cursive;
 }
 
@@ -11,14 +11,8 @@ marquee {
 }
 
 #name p a{
-   color: white;
+   color: #16b6f1;
    font-size: 300%;
-}
-
-#name p a:hover {
-   color: cyan;
-   background-color: transparent;
-   text-decoration: none;
 }
 
 p {
@@ -167,6 +161,8 @@ pre {
 }
 
 footer {
+   position: absolute;
+   bottom: 0;
    padding: 1em;
    clear: left;
    text-align: center;
