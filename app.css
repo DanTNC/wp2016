@@ -162,6 +162,7 @@ footer {
    clear: left;
    text-align: center;
    font-size: 300%;
+   background-color: hsla(240, 0%, 0%, 0.3);
 }
 
 body {
