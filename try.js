@@ -14,6 +14,7 @@ $(document).ready(function(){
       $("#about").slideToggle("slow");
     }
     state = (state==1?0:1);
+    console.log(2);
     //alert(state);
   });
 });
