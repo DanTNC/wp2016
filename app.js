@@ -42,9 +42,9 @@ $(document).mouseup(function(e){
   }
 });
 
-var ele=document.getElementById('contact');
-ele.getElementByTagName('button').addEventListener("click", change());
+var ele=document.getElementById("contact");
+ele.getElementByTagName("button").addEventListener("click", change());
 
 function change(){
-  document.getElementById('contact').getElementByTagName('button').style.backgroundColor=document.getElementByTagName('body').style.backgroundColor;
+  document.getElementById("contact").getElementByTagName("button").style.backgroundColor=document.getElementByTagName("body").style.backgroundColor;
 }
