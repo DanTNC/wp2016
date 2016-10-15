@@ -184,12 +184,15 @@ article {
 }
 
 html, body {
-   background-image: url("TNC.png");
-   background-color: black;
-   background-size: cover;
-   background-repeat: no-repeat;
    height: 100%;
    margin: 0;
    padding: 0;
+}
+
+body {
+   background-image: url("TNC.png");
+   background-color: black;
+   background-size: cover;
+   background-repeat: no-repeat; 
    overflow: scroll;
 }
