@@ -43,8 +43,8 @@ $(document).mouseup(function(e){
 });
 
 var ele=document.getElementById('contact');
-ele.getElementByTag('button').addEventListener("click", change());
+ele.getElementByTagName('button').addEventListener("click", change());
 
 function change(){
-  document.getElementById('contact').getElementByTag('button').style.backgroundColor=document.getElementByTag('body').style.backgroundColor;
+  document.getElementById('contact').getElementByTagName('button').style.backgroundColor=document.getElementByTagName('body').style.backgroundColor;
 }
