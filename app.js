@@ -41,3 +41,10 @@ $(document).mouseup(function(e){
     state=0;
   }
 });
+
+var ele=document.getElementById('contact');
+ele.getElementByTag('button').addEventListener("click", change());
+
+function change(){
+  document.getElementById('contact').getElementByTag('button').style.backgroundColor=document.getElementByTag('body').style.backgroundColor;
+}
