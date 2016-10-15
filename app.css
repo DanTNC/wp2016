@@ -161,7 +161,11 @@ pre {
 }
 
 .footer {
-   position: absolute;
+   position: relative;
+   clear: both;
+   z-index: 10;
+   height: 3em;
+   margin-top: -3em;
    left: 0;
    right: 0;
    bottom: 0;
@@ -177,5 +181,7 @@ body {
    background-color: black;
    background-size: cover;
    background-repeat: no-repeat;
+   height: 100%;
+   min-height: 100%;
    overflow: scroll;
 }
