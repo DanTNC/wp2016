@@ -161,7 +161,8 @@ pre {
 }
 
 .footer {
-   position: relative;
+   height: 60px;
+   position: absolute;
    clear: both;
    left: 0;
    right: 0;
@@ -173,13 +174,21 @@ pre {
    background-color: hsla(240, 0%, 0%, 0.2);
 }
 
+#container {
+   min-height: 100%;
+   position:relative;
+}
+
+article {
+   padding-bottom: 60px;
+}
+
 body {
    background-image: url("TNC.png");
    background-color: black;
    background-size: cover;
    background-repeat: no-repeat;
    height: 100%;
-   min-height: 100%;
    margin: 0;
    padding: 0;
    overflow: scroll;
