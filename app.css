@@ -160,6 +160,10 @@ pre {
    width: 20%;
 }
 
+#image {
+   margin: 3em;
+}
+
 .footer {
    height: 60px;
    position: absolute;
