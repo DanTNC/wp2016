@@ -183,7 +183,7 @@ article {
    padding-bottom: 60px;
 }
 
-body {
+html, body {
    background-image: url("TNC.png");
    background-color: black;
    background-size: cover;
