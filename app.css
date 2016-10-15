@@ -163,9 +163,6 @@ pre {
 .footer {
    position: relative;
    clear: both;
-   z-index: 10;
-   height: 3em;
-   margin-top: -3em;
    left: 0;
    right: 0;
    bottom: 0;
