@@ -16,8 +16,18 @@ marquee {
 }
 
 p {
-   font-family: 微軟正黑體, Microsoft JhengHei, fantasy;
+   font-family: custom-sans-serif;
 }
+
+@font-face
+    font-family: custom-sans-serif
+    src: local("Heiti TC"), local("微軟正黑體"), local("Microsoft JhengHei")
+    unicode-range: U+4E00-9FFF
+
+@font-face
+    font-family: custom-sans-serif
+    src: local(fantasy)
+    unicode-range: U+00-024F
 
 nav {
     float: left;
