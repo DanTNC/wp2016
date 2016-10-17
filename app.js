@@ -32,19 +32,12 @@ $(document).ready(function(){
   });
 });
 
-/*$(document).ready(function(){
-  $(".c").click(function(){
-    if(state==1){
-      $("#about").slideToggle("slow",function(){
-         $("#contact").slideToggle("slow");
-      });
-    }else{
-      $("#contact").slideToggle("slow");
-    }
-    state = (state==2?0:2);
+$(document).ready(function(){
+  $("#contact button").click(function(){
+    window.location='https://www.facebook.com/profile.php?id=100003934883716';
     //alert(state);
   });
-});*/
+});
 
 $(document).mouseup(function(e){
   var _con = $(".link, li, #about button");
