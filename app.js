@@ -33,8 +33,15 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $("#contact button").click(function(){
+  $("#c1").click(function(){
     window.location='https://www.facebook.com/profile.php?id=100003934883716';
+    //alert(state);
+  });
+});
+
+$(document).ready(function(){
+  $("#c2").click(function(){
+    window.location='https://www.instagram.com/fad11203/';
     //alert(state);
   });
 });
