@@ -38,6 +38,7 @@ li a, .footer {
 
 li {
    padding-right: 20%;
+   padding-left: 10%;
    cursor: pointer;
 }
 
