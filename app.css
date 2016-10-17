@@ -28,7 +28,6 @@ nav {
 
 ul {
    list-style-type: none;
-   padding: 0% 20% 0% 10%;
 }
 
 li a, .footer {
@@ -38,6 +37,7 @@ li a, .footer {
 }
 
 li {
+   padding-right: 20%;
    cursor: pointer;
 }
 
