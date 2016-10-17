@@ -16,9 +16,7 @@ marquee {
 }
 
 p {
-   font-family: fantasy;
-   font-family: 微軟正黑體;
-   font-family: Microsoft JhengHei;
+   font-family: fantasy, Microsoft JhengHei;
 }
 
 nav {
@@ -152,6 +150,24 @@ pre {
 }
 
 #about button:hover {
+   background-color: hsla(200, 20%, 15%, 0.5);
+   border-radius: 10px;
+}
+
+#contact button img {
+   width: 50px;
+   height: 50px;
+}
+
+#contact button {
+   background-color: hsla(0, 100%, 50%, 0.0);
+   border: none;
+   display: inline-block;
+   cursor: pointer;
+   transition: 0.5s;
+}
+
+#contact button:hover {
    background-color: hsla(200, 20%, 15%, 0.5);
    border-radius: 10px;
 }
