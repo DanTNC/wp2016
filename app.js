@@ -31,8 +31,23 @@ $(document).ready(function(){
     //alert(state);
   });
 });
+
+/*$(document).ready(function(){
+  $(".c").click(function(){
+    if(state==1){
+      $("#about").slideToggle("slow",function(){
+         $("#contact").slideToggle("slow");
+      });
+    }else{
+      $("#contact").slideToggle("slow");
+    }
+    state = (state==2?0:2);
+    //alert(state);
+  });
+});*/
+
 $(document).mouseup(function(e){
-  var _con = $(".link, li");
+  var _con = $(".link, li, #about button");
   if(!_con.is(e.target) && _con.has(e.target).length === 0){
     if(state==1){
       $("#about").slideToggle("slow");
