@@ -45,7 +45,7 @@ $(document).ready(function(){
     $("#about").slideToggle("slow");
     $(".works").fadeIn("slow");
     $(".works").css("display","inline-block");
-    $("#u1").text("close");
+    $("#u1 a").text("close");
     stwk=1;
   });
 });
@@ -54,7 +54,7 @@ $(document).ready(function(){
   $("#u1").click(function(){
     if(state==3){
       $(".works").fadeOut("slow");
-      $("#u1").text("hana");
+      $("#u1 a").text("hana");
       stwk=0;
     }
   });
