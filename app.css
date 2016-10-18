@@ -30,7 +30,7 @@ ul {
    list-style-type: none;
 }
 
-li a, .footer {
+li a, footer {
    color: white;
    font-family: fantasy;
    font-size: 200%;
@@ -192,7 +192,7 @@ div.works div {
    color: white;
 }
 
-.footer {
+footer {
    height: 60px;
    position: absolute;
    clear: both;
