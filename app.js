@@ -34,14 +34,14 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#c1").click(function(){
-    window.location='https://www.facebook.com/profile.php?id=100003934883716';
+    window.open('https://www.facebook.com/profile.php?id=100003934883716','_blank');
     //alert(state);
   });
 });
 
 $(document).ready(function(){
   $("#c2").click(function(){
-    window.location='https://www.instagram.com/fad11203/';
+    window.open('https://www.instagram.com/fad11203/','_blank');
     //alert(state);
   });
 });
