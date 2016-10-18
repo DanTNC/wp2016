@@ -1,9 +1,5 @@
-/*$(document).ready(function(){
-  $(".a").click(function(){
-    $("#about").slideToggle("slow");
-  });
-});*/
 var state = 0;
+
 $(document).ready(function(){
   $(".a").click(function(){
     if(state==2){
@@ -14,7 +10,6 @@ $(document).ready(function(){
       $("#about").slideToggle("slow");
     }
     state = (state==1?0:1);
-    //$("#name p a").css("color","white");
     //alert(state);
   });
 });
@@ -35,14 +30,22 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#c1").click(function(){
     window.open('https://www.facebook.com/profile.php?id=100003934883716','_blank');
-    //alert(state);
   });
 });
 
 $(document).ready(function(){
   $("#c2").click(function(){
     window.open('https://www.instagram.com/fad11203/','_blank');
-    //alert(state);
+  });
+});
+
+$(document).ready(function(){
+  $("#about button").click(function(){
+    $("#about").slideToggle("slow");
+    var imgbox=document.getElementByClassName("works");
+    for(var i=0;i<imgbox.length;i++){
+      imgbox[i].fadeIn(slow);
+    }
   });
 });
 
