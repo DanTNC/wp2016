@@ -177,7 +177,7 @@ pre {
 div.works {
    margin: auto;
    border: 2px solid white;
-   display: inline-block;
+   display: none;
    width: 180px;
 }
 
