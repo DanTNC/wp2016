@@ -46,6 +46,7 @@ $(document).ready(function(){
     $(".works").fadeIn("slow");
     $(".works").css("display","inline-block");
     $("#u1 a").text("close");
+    state=0;
     stwk=1;
   });
 });
