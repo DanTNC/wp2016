@@ -44,7 +44,7 @@ $(document).ready(function(){
     $("#about").slideToggle("slow");
     var imgbox=document.getElementByClassName("works");
     for(var i=0;i<imgbox.length;i++){
-      imgbox[i].fadeIn(slow);
+      imgbox[i].fadeOut(slow);
     }
   });
 });
