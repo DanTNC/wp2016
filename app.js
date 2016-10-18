@@ -1,4 +1,5 @@
 var state = 0;
+var stwk = 0;
 
 $(document).ready(function(){
   $(".a").click(function(){
@@ -45,7 +46,7 @@ $(document).ready(function(){
     $(".works").fadeIn("slow");
     $(".works").css("display","inline-block");
     $("#u1").text()="close";
-    state=3;
+    stwk=1;
   });
 });
 
@@ -54,7 +55,7 @@ $(document).ready(function(){
     if(state==3){
       $(".works").fadeOut("slow");
       $("#u1").text()="hana";
-      state=0;
+      stwk=0;
     }
   });
 });
