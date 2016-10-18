@@ -64,7 +64,7 @@ li:hover {
   cursor: pointer;
   display: inline-block;
   position: relative;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 button:focus {
@@ -74,39 +74,31 @@ button:focus {
 .a span:after {
   content: 'bout';
   color: black;
-  position: absolute;
+  position: relative;
   opacity: 0;
   top: 0;
-  right: -400%;
-  transition: 0.5s;
-}
-
-.a:hover span {
-  padding-right: 80%;
+  left: -400%;
+  transition: 1s;
 }
 
 .a:hover span:after {
   opacity: 1;
-  right: 0%;
+  left: 0%;
 }
 
 .c span:after {
   content: 'ontact';
   color: black;
-  position: absolute;
+  position: relative;
   opacity: 0;
   top: 0;
-  right: -400%;
-  transition: 0.5s;
-}
-
-.c:hover span {
-  padding-right: 85%;
+  left: -400%;
+  transition: 1s;
 }
 
 .c:hover span:after {
   opacity: 1;
-  right: 3%;
+  left: 0%;
 }
 
 .link p a button:hover {
