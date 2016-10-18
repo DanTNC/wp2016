@@ -52,7 +52,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#u1").click(function(){
-    if(state==3){
+    if(stwk==1){
       $(".works").fadeOut("slow");
       $("#u1 a").text("hana");
       stwk=0;
