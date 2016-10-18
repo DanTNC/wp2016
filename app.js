@@ -44,7 +44,18 @@ $(document).ready(function(){
     $("#about").slideToggle("slow");
     $(".works").fadeIn("slow");
     $(".works").css("display","inline-block");
+    $("#u1").text()="close";
     state=3;
+  });
+});
+
+$(document).ready(function(){
+  $("#u1").click(function(){
+    if(state==3){
+      $(".works").fadeOut("slow");
+      $("#u1").text()="hana";
+      state=0;
+    }
   });
 });
 
