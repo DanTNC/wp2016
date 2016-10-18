@@ -42,7 +42,8 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#about button").click(function(){
     $("#about").slideToggle("slow");
-    $(".works").fadeOut("slow");
+    $(".works").fadeIn("slow");
+    $(".works").css("display","inline-block");
   });
 });
 
