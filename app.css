@@ -64,7 +64,7 @@ li:hover {
   cursor: pointer;
   display: inline-block;
   position: relative;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 button:focus {
@@ -78,7 +78,7 @@ button:focus {
   opacity: 0;
   top: 0;
   left: -400%;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .a:hover span:after {
@@ -93,7 +93,7 @@ button:focus {
   opacity: 0;
   top: 0;
   left: -400%;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .c:hover span:after {
