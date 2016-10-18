@@ -42,10 +42,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#about button").click(function(){
     $("#about").slideToggle("slow");
-    var imgbox=document.getElementsByClassName("works");
-    for(var i=0;i<imgbox.length;i++){
-      imgbox[i].opacity=0;
-    }
+    $(".works").fadeOut("slow");
   });
 });
 
