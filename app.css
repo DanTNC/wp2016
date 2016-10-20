@@ -79,12 +79,14 @@ button:focus {
   color: black;
   position: relative;
   opacity: 0;
+  display: none;
   top: 0;
   left: -400%;
   transition: 0.5s;
 }
 
 .a:hover span:after {
+  display: initial;
   opacity: 1;
   left: 0%;
 }
