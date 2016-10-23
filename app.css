@@ -26,11 +26,14 @@ nav {
    padding: 1em;
    position: fixed;
    height: 100%;
+   background-color: rgba(22, 182, 241, 0.42);
+   z-index: 100;
 }
 
 ul {
    list-style-type: none;
    height: 100%;
+   padding-left: 0;
 }
 
 li a, footer {
@@ -40,8 +43,8 @@ li a, footer {
 }
 
 li {
-   padding-right: 20%;
-   padding-left: 10%;
+   padding-right: 0;
+   padding-left: 30%;
    cursor: pointer;
 }
 
