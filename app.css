@@ -107,6 +107,22 @@ button:focus {
   left: 0%;
 }
 
+.p span:after {
+  content: 'ropotion';
+  color: black;
+  position: relative;
+  opacity: 0;
+  top: 0;
+  left: -400%;
+  transition: 0.5s;
+}
+
+.p:hover span:after {
+  opacity: 1;
+  left: 0%;
+}
+
+
 .link p a button:hover {
    background-color: white;
    border: none;
