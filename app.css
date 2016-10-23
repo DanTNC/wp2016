@@ -109,7 +109,7 @@ button:focus {
 }
 
 .p span:after {
-  content: 'ropotion';
+  content: 'roposal';
   color: black;
   position: relative;
   opacity: 0;
