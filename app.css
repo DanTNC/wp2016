@@ -139,7 +139,7 @@ button:focus {
    text-align: right;
 }
 
-#about, #contact {
+#about, #contact, #proposal{
     display: none;
     background-color: hsla(240, 0%, 0%, 0.6);
     padding: 5px;
