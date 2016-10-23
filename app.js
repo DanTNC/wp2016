@@ -7,6 +7,10 @@ $(document).ready(function(){
       $("#contact").slideToggle("slow",function(){
         $("#about").slideToggle("slow");
       });
+    }else if(state==3){
+      $("#proposal").slideToggle("slow",function(){
+        $("#about").slideToggle("slow");
+      });
     }else{
       $("#about").slideToggle("slow");
     }
@@ -20,6 +24,10 @@ $(document).ready(function(){
       $("#about").slideToggle("slow",function(){
          $("#contact").slideToggle("slow");
       });
+    }else if(state==3){
+      $("#proposal").slideToggle("slow",function(){
+        $("#contact").slideToggle("slow");
+      });
     }else{
       $("#contact").slideToggle("slow");
     }
@@ -27,6 +35,24 @@ $(document).ready(function(){
     //alert(state);
   });
 });
+$(document).ready(function(){
+  $(".p").click(function(){
+    if(state==1){
+      $("#about").slideToggle("slow",function(){
+         $("#proposal").slideToggle("slow");
+      });
+    }else if(state==2){
+      $("#contact").slideToggle("slow",function(){
+        $("#proposal").slideToggle("slow");
+      });
+    }else{
+      $("#proposal").slideToggle("slow");
+    }
+    state = (state==3?0:3);
+    //alert(state);
+  });
+});
+
 
 $(document).ready(function(){
   $("#c1").click(function(){
