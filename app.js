@@ -94,6 +94,8 @@ $(document).mouseup(function(e){
       $("#about").slideToggle("slow");
     }else if(state==2){
       $("#contact").slideToggle("slow");
+    }else if(state==3){
+      $("#proposal").slideToggle("slow");
     }
     state=0;
   }
